@@ -161,7 +161,7 @@ hr {
 	display: block;
 }
 
-.footer {
+footer {
 	text-align: center;
 }
 
@@ -173,20 +173,23 @@ hr {
 		align-items: center;
 	}
 
-    .container {
+    section.container {
 		display: flex;
 		flex-direction: row;
+		gap: 1.6em;
+	}
+
+	.header .container {
+		flex-direction: column;
 	}
 
 	.main-article {
-		display: flex;
 		width: 60%;
 		border-radius: 0.6rem;
 		margin: 0;
 	}
 
 	.main-sidebar {
-		display: flex;
 		width: 40%;
 		border-radius: 0.6rem;
 		margin: 0;
